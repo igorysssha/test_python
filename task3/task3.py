@@ -49,7 +49,7 @@ def update_tests_values(tests, values):
             test_id = test['id']
             if isinstance(test_id, int) and test_id in values:
                 test['value'] = values[test_id]
-        elif isinstance(test, dict) and 'values' in test:
+        if isinstance(test, dict) and 'values' in test:
             update_tests_values(test['values'], values)
 
 if __name__ == "__main__":
