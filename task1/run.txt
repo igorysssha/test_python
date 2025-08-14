@@ -1,0 +1,10 @@
+Для запуска вводим
+
+$ python3 task1/task1.py 5 4
+$ python3 task1/task1.py 4 3
+
+либо 
+
+$ python task1/task1.py 5 4
+$ python task1/task1.py 4 3
+
